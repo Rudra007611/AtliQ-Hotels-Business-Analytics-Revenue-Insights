@@ -1,0 +1,131 @@
+
+🏨 AtliQ Hotels – Business Analytics & Revenue Insights
+
+This project presents a detailed business performance analysis for **AtliQ Hotels**, a fictional hotel chain looking to uncover performance gaps and strategic opportunities using historical booking and revenue data. Through data wrangling, aggregation, and visualization, this project mimics a real-world consulting engagement to deliver insights that can improve revenue, occupancy, and cancellation management.
+
+
+## 🎯 Project Overview
+
+AtliQ Hotels' Strategy Team has raised concerns regarding inconsistent performance across its properties. Despite having data available across key verticals like Rooms, Food & Beverage, Events, and Other Services, decision-makers lack clarity on:
+
+- Which cities or properties are underperforming?
+- How much is being lost due to cancellations?
+- Which hotel types offer the best ROI?
+- When is peak revenue season, and how can it be optimized?
+
+This project analyzes over **20,000+ records** of hotel-level performance data and delivers insight-driven answers to these key questions.
+
+
+## 📌 Business Objectives
+
+- Analyze city-level and property-level revenue distribution
+- Benchmark performance across different hotel types
+- Identify peak revenue weeks and seasonality patterns
+- Quantify loss due to cancellations
+- Compare occupancy and customer ratings across geographies
+- Examine booking patterns by room type and assess risks
+
+
+## 📊 Key Insights & Findings
+
+1. **Top Revenue-Generating City:**  
+   - **Mumbai** leads with ₹669M in total revenue, indicating strong market presence and pricing power.
+   - Followed by **Bangalore, Hyderabad**, and **Delhi**, making them strategic markets for growth.
+
+2. **Best Performing Property Type – AtliQ Exotica:**  
+   - Revenue: ₹320M  
+   - Occupancy: 57%  
+   - Average Rating: 3.62  
+   - Cancellation Rate: 24.4%  
+   This property type outperforms all others and can be a model for expansion.
+
+3. **Highest Occupancy Rate – AtliQ Bay:**  
+   - Occupancy peaks at **66%**, making it a highly utilized asset with efficient room allocation.
+
+4. **Most Profitable Week:**  
+   - **Week 24** shows the highest revenue, ₹139.6M. This insight can be used to optimize future marketing campaigns and seasonal promotions.
+
+5. **Occupancy & Rating Leader – Delhi:**  
+   - Delhi scores high in both occupancy and customer satisfaction, indicating strong brand loyalty and service quality.
+
+6. **Loss Due to Cancellations:**  
+   - AtliQ Hotels lost approximately **₹298M** from canceled bookings – signaling a need to review policies and customer behavior.
+
+7. **Elite Room Type Risk:**  
+   - While **Elite rooms** saw the **highest number of bookings**, they also had **higher cancellation rates**, suggesting price sensitivity or mismatched guest expectations.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+| Tool        | Purpose                          |
+|-------------|----------------------------------|
+| Python      | Core scripting and data analysis |
+| Jupyter Notebook | Interactive development & reporting |
+| Pandas      | Data wrangling & transformation  |
+| NumPy       | Numerical operations             |
+| Seaborn & Matplotlib | Data visualization & storytelling |
+
+---
+
+## 📁 Project Structure
+
+AtliQ_Hotels/
+│
+├── 📘 AtliQ_Hotels.ipynb         # Core analysis notebook
+├── 📊 /data/                     # Optional: cleaned/transformed datasets
+└── 📄 README.md                  # Documentation and project overview
+````
+
+---
+
+## 📈 Methodology
+
+1. **Data Cleaning:**
+
+   * Removed nulls and duplicates, formatted dates, standardized columns.
+
+2. **Exploratory Data Analysis (EDA):**
+
+   * Grouped data by city, property type, week number, and room type.
+   * Generated KPIs: revenue, occupancy %, rating, cancellation %.
+
+3. **Data Visualization:**
+
+   * Created charts to highlight trends, peaks, and anomalies in revenue, occupancy, and bookings.
+
+4. **Insight Extraction:**
+
+   * Converted raw data into executive-friendly insights with business context and actionability.
+
+---
+
+## 📌 Strategic Recommendations
+
+* **Double down on high-performing properties** like AtliQ Bay and Exotica for expansion.
+* **Review cancellation policies**, especially for Elite room types.
+* **Launch marketing campaigns** aligned with Week 24 and other peak periods.
+* **Monitor underperforming cities** and conduct root cause analysis.
+
+
+## 🚀 Project Outcome
+
+This case study shows how **business analytics** can power real-world decision-making in the **hospitality sector**. It serves as a portfolio-ready demonstration of:
+
+* Translating data into strategy
+* Identifying performance gaps
+* Improving operational KPIs through data
+
+
+## 👤 About the Author
+
+**Rudra Pratap Singh**
+MBA (Business Analytics) | Strategy & Data Analytics | Hospitality & Real Estate Enthusiast
+📬 [LinkedIn](https://www.linkedin.com/in/rudrapratapsingh/) 
+
+> ⚠️ *Disclaimer:* This is a simulated project created for academic and portfolio purposes using fictional data. Any resemblance to real hotel chains is purely coincidental.
+
+
+## ⭐ If you find this project insightful, feel free to star ⭐ this repo or connect with me on LinkedIn!
+
+
